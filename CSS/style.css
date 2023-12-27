@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;800&family=PT+Sans:wght@700&family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+:root{
+    --primaryfont: 'Poppins', sans-serif;
+    --seceondaryfont: 'PT Sans', sans-serif;
+    --primarycolor: #FC0;
+    --seceondarycolor:#353535;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,p,span,ol{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--primaryfont);
+}
+
+/* NAV STARTS */
+
+nav .navbar-toggler{
+    border: 0;
+    box-shadow: none;!important
+}
+
+#mymenu ul li a{
+color: #353535;
+font-family: var(--primaryfont);
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 200%; 
+padding: 18px 22px 5px;
+position: relative;
+}
+
+#mymenu ul li a::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: var(--seceondarycolor);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.30;
+}
+
+#mymenu ul li:hover a::after{
+    width: 100%;
+
+}
+
+/* NAV ENDS */
+
+/* BANNER STARTS */
+
+#banner{
+    padding: 72px 0 144px ;
+}
+
+#banner .banner_cnt h4{
+    color: var(--seceondarycolor);
+    font-family: var(--primaryfont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#banner .banner_cnt h1{
+    color: var(--seceondarycolor);
+    font-family:var(--seceondaryfont);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#banner .banner_cnt p{
+    margin: 25px 0 45px 0;
+    color: var(--seceondarycolor);
+    font-family: var(--primaryfont);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.button{
+    padding: 16px 45px;
+    border-radius: 20px;
+    background: var(--primarycolor);
+    display: inline-block;
+    align-items: center;
+    color: white;
+    margin-right: 40px;
+}
+.button_1{
+    padding: 16px 18px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    align-items: center;
+    color: black;
+    
+}
+
+#banner .social{
+    margin-top: 66px;
+}
+
+#banner .social h4{
+    color: var(--seceondarycolor);
+    font-family:var(--primaryfont);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 180%;
+}
+#banner .social ul li{
+    display: inline-block;
+}
+
+
+#banner .social ul li a{
+    width: 40px;
+    height: 40px;
+    background-color: #F4F3F3;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: black;
+
+}
+
+
+/* BANNER ENDS */
+
+/* about starts */
+
+#about{
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+}
+
+#about .about_cnt h2{
+    color: var(--seceondarycolor);
+    font-family: var(--seceondaryfont);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 76px;
+}
+
+#about .about_cnt p{
+    color: var(--seceondarycolor);
+    font-family: var(--primaryfont);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+    margin: 26px 0;
+}
+#about .button_1{
+    width: 171px;
+    height: 66px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 18px;
+    margin: 45px 0 86px 0;
+}
+
+#about .container{
+    position: relative;
+}
+
+#about .circle{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+
+}
+
+#service{
+    margin: 150px 0 165px 0;
+}
+
+#service .service_card{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+}
+.service_card{
+    text-align: center;
+    padding: 45px 0 57px 0;
+}
+
+.service_img{
+    padding-bottom: 16px;
+}
+
+
+.service_cnt h5{
+    color: var(--seceondarycolor);
+    text-align: center;
+    font-family: var(--primaryfont);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+}
+
+.service_cnt p{
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+}
+
+
+
+/* branding starts */
+
+#brand{
+    border-radius: 30px;
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+    padding: 50px 0 0 0;
+}
+
+#brand .vector{
+    position: relative;
+}
+
+#brand .ellipse-1{
+    position: absolute;
+    top: 50px;
+    left: 54px;
+
+}
+
+#brand .ellipse-2{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+}
+
+.digital h6{
+    position: absolute;
+    color: var(--seceondarycolor);
+    font-family: var(--primaryfont);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    transform: rotate(19.153deg);
+    line-height: 180%;
+    top: 116px;
+    left: 234px;
+}
+.digital p{
+    position: absolute;
+    color: var(--seceondarycolor);
+    font-family: var(--primaryfont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    transform: rotate(19.153deg);
+    top: 204px;
+    left: 201px;
+}
+
+#brand .container{
+    position: relative;
+}
+
+#brand .ellipse-3{
+    position: absolute;
+    top: -95px;
+    right: 65px;
+}
+
+.branding h2{
+    color: var(--seceondarycolor);
+    font-family: var(--seceondaryfont);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 83px;
+}
+
+.branding p{
+    color: #353535;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+    width: 410px;
+    margin: 21px 0 0 0;
+}
+
+.branding .line{
+    margin: 0 0 25px 0;
+    
+}
+.branding .button_1 {
+    margin: 34px 17px 0 0;
+}
+
+/* branding ends */
+
+/* help starts */
+
+#help{
+    margin: 150px 0;
+}
+
+.help_card .card{
+    width: 380px;
+    height: 93px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    margin: 24px 0;
+}
+.card .card_cnt h5{
+    color: #353535;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%; 
+}
+.card .card_cnt p{
+    color: #353535;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; 
+}
+
+.card .card_img{
+    padding: 17px 17px 17px 29px;
+}
+
+.card .card_cnt{
+    padding: 18px;
+}
+
+.help_cnt{
+    text-align: right;
+    align-items: center;
+}
+
+.help_cnt h2{
+ color: #353535;
+text-align: right;
+font-family: PT Sans;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.help_cnt p{
+    color: #353535;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%; 
+    margin: 26px 0 32px 0;
+    
+}
+
+.help_cnt .help_par h3{
+    color: #353535;
+    text-align: right;
+    font-family: PT Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.help_cnt .help_par p{
+    color: #353535;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; 
+}
+/* help ends */
+
+/* Experience starts */
+
+#Experience .heading h2{
+    text-align: center;
+    color: var(--seceondarycolor);
+    font-family: var(--seceondaryfont);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 70px;
+}
+.timeline .year{
+    border-right: 1px dashed #7A7A7A;
+    padding: 21px 0 98px;
+    position: relative;
+}
+
+.timeline .year::after{
+    content:'';
+    width: 42px;
+    height: 42px;
+    background-color: #FFF;
+    border: 2px dashed #7A7A7A;
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    border-radius: 50%;
+
+}
+
+.timeline .year::before{
+    content:'';
+    width: 20px;
+    height: 20px;
+    background-color: #52AB70;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 50%;
+    z-index: 99999;
+}
+.timeline.green .year::before{
+    background-color: #52AB70;
+}
+.timeline.red .year::before{
+    background-color: #F17676;
+}
+.timeline.yellow .year::before{
+    background-color: #FFD233;
+}
+
+
+
+.timeline .year h4{
+    color: #353535;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; 
+}
+
+.timeline .year p{
+    color: #7A7A7A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;   
+
+}
+
+.timeline .title h3{
+    color: #353535;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; 
+}
+
+.timeline .title p{
+    color: #7A7A7A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200.5%; 
+}
+/* Experience ends */
+
+/* Expert starts */
+#expert{
+    padding: 150px 0;
+}
+.expert_text h2{
+    color: #353535;
+    font-family: PT Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#expert .expert_text .button{
+    padding: 16px 45px;
+    border-radius: 20px;
+    background: var(--primarycolor);
+    display: inline-block;
+    align-items: center;
+    color: white;
+    margin-right: 40px;
+    width: 250px;
+    height: 60px;
+     
+}
+
+.expert_text p{
+    color: #7A7A7A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    width: 585px;
+    margin: 40px 0; 
+
+}
+
+
+.skills ul{
+    justify-content: center;
+}
+
+.skills ul li button{
+color: #353535;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; 
+padding: 16px 64px;
+border-radius: 20px;
+}
+
+.skills ul li button.active{
+    background-color: transparent !important;
+    color: var(--seceondarycolor) !important;
+    outline: 1px solid #000;
+}
+.skills ul li button:hover{
+    color: #FC0;
+}
+
+
+
+
+.skills_card h4{
+    color: #353535;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    margin: 44px 0 11px 0;
+} 
+
+.skills_card .progressbar{
+    width: 100%;
+    max-width:380px;
+    height: 6px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D9D9D9;
+    position: relative;
+}
+
+.skills_card .progressbar .progress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #F16500;
+
+}
+.skills_card .progressbar .progress_p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #03249B;
+
+}
+.skills_card .progressbar .progress_x{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #700D60;
+
+}
+.skills_card .progressbar .progress_i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #234BDA;
+
+}
+/* Expert ends */
+
+/* my sevices starts */
+
+#mysevices{
+    background: #FFF7D5;
+    padding: 71px 0;
+}
+#mysevices .heading{
+    text-align: center;
+}
+
+#mysevices .heading h2{
+    color: #353535;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#mysevices .heading p{
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; 
+    margin-bottom: 73px;
+}
+#mysevices .my_card{
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.06);
+    margin: 0 20px;
+    width: 400px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#mysevices .my_card:hover{
+
+    background: linear-gradient(159deg, #FC0 3.12%, #FFE476 94.59%);
+    margin: 20px;
+
+}
+
+.my_card h4{
+    color: #353535;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; 
+    padding: 25px 0;
+}
+.my_card p{
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    padding: 0 49px 79px 49px; 
+}
+
+.my_card img{
+    padding-top: 32px;
+}
+
+/* my sevices ends */
+
+/* feedback starts */
+#feedback{
+    padding-top: 92px;
+}
+.feedback_heading h2{
+    color: #353535;
+    font-family: PT Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135.4%; 
+}
+
+.feedback_heading p{
+    color: #7A7A7A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; 
+}
+
+#feedback .feedback_img{
+margin: 60px 0;
+}
+
+
+.feedback_text p{
+    color: #7A7A7A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; 
+    padding-top: 160px;
+}
+
+.feedback_text h5{
+    color: #353535;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 24px;
+    font-weight: 500;
+    line-height: 200%; 
+}
+.feedback_text h6{
+    color: #7A7A7A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+    
+/* feedback starts */

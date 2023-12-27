@@ -1,0 +1,350 @@
+
+
+@media (min-width:320px) and (max-witdth: 800px){
+    
+    nav {
+        background-color: #e6e5e5;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 1);
+    }
+    #mymenu ul li a {
+        text-align: center;
+    }
+}
+
+
+@media(max-width:991px) {
+
+    #banner .banner_cnt .hand{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    }
+
+    #banner .banner_cnt h4{
+        font-size: 15px;
+
+    }
+    #banner .banner_cnt h1{
+    font-size: 34px;
+    
+    }
+    .button{
+        padding: 10px 18px;
+        border-radius: 10px;
+        display: inline-block;
+        align-items: center;
+        color: white;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+
+    .button .send{
+        width: 12px;
+        height: 12px;
+    }
+    .button_1{
+        padding: 8px 10px;
+        border-radius: 10px;
+        display: inline-block;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        margin-right: 10px;
+        font-size: 10px;
+    }
+
+
+    .button_1 .cv{
+        width: 12px;
+        height: 12px;
+    }
+
+    #banner .banner_cnt p{
+        font-size: 15px;
+    }
+
+    
+
+    #banner .banner_img img{
+        max-width: 100%;
+    }
+
+    #banner .social h4{
+        font-size: 16px;
+    }
+
+    #banner .social ul li{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
+        
+    
+    }
+
+   
+    
+    
+}
+
+@media (min-width:320px) and (max-width:991px){
+    #about .about_img img{
+        width: 100%;
+        transform: scalex(-1);
+    }
+
+    #about .button_1{
+        width: 121px;
+        height: 47px;
+        border-radius: 15px;
+        border: 1px solid #000;
+        font-size: 14px;
+    }
+    #about .about_cnt p{
+        font-size: 15px;
+    }
+    #about .about_cnt h2{
+        font-size: 24px;
+    }
+    
+}
+
+@media(max-width:991px){
+    .service_cnt h5{
+        color: var(--seceondarycolor);
+        font-family: var(--primaryfont);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 180%;
+    }
+
+    .service_cnt p{
+        color: #7A7A7A;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 190%;
+    }
+
+    .service_card{
+        text-align: center;
+        border-radius: 12px;
+        margin: 15px 0;
+    }
+    
+    
+}
+
+@media (min-width:320px) and (max-width:991px){
+    #brand{
+        border-radius: 20px;
+        background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+    }
+
+    #brand .container{
+        position: relative;
+    }
+    
+
+    #brand .ellipse-3{
+        position: absolute;
+        bottom: -15px;
+        right: 57px;
+    }
+
+    #brand .ellipse-2{
+        position: absolute;
+        bottom: 25px;
+        left: 110px;
+    }
+
+    #brand .ellipse-1 {
+        position: absolute;
+        top: 452px;
+        left: 54px;
+    }
+    .digital h6 {
+        position: absolute;
+        font-size: 22px;
+        line-height: 180%;
+        top: 490px;
+        left: 230px;
+    }
+
+    .digital p {
+        position: absolute;
+        transform: rotate(19.153deg);
+        top: 575px;
+        left: 206px 
+    
+    }
+    
+    
+}
+
+
+@media (min-width:320px) and (max-width:991px){
+    .help_cnt h2{
+        font-size: 24px;
+    }
+    .help_cnt p{
+        font-size: 15px;
+    }
+    .help_cnt .help_par h3{
+        font-size: 24px;
+        
+    }
+    .help_cnt .help_par p{
+        font-size: 10px;
+        
+    }
+}
+
+@media (min-width:320px) and (max-width:991px){
+    .timeline .year{
+        border-right: none;
+        padding: 20px 12px;
+        position: relative;
+        
+    }
+
+    .timeline{
+        border-left: 1px dashed #7A7A7A;
+        padding: 20px;
+        max-width: 85%;
+        margin: auto;
+        
+    }
+    .timeline .year::after{
+        left: -28px;
+        right: auto;
+    }
+
+    .timeline .year::before{
+        left: -17px;
+        right: auto;
+
+    }
+}
+
+@media (min-width:320px) and (max-width:991px){
+    .skills ul li button{
+        width: 142px;
+        height: 55px;
+        font-size: 16px;
+        padding: 12px 54px;
+    }
+
+    .expert_text p{
+        font-size: 15px;
+        width: 343px;
+    }
+
+    .expert_text h2{
+        color: #353535;
+        font-family: PT Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:991px){
+    #Experience .heading h2{
+        font-size: 24px;
+    }
+
+    .timeline .year h4{
+        font-size: 15px;
+    }
+
+    .timeline .year p{
+        font-size: 12px;
+    }
+
+    .timeline .title h3{
+        font-size: 15px;
+    }
+
+    .timeline .title p{
+        font-size: 12px;
+    }
+}
+
+@media (min-width:320px) and (max-width:991px){
+    #mysevices .heading h2{
+        font-size: 24px;
+        text-align: left;
+    }
+
+    #mysevices .heading p{
+        font-size: 13px;
+        text-align: left;
+        color: #7A7A7A;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%
+        
+    }
+
+
+    .my_card h4{
+        color: #353535;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 180%;
+        padding: 26px 0px 9px 98px;
+        text-align: left;
+        width: 228px
+
+    }
+
+    .my_card p{
+        font-size: 13px;
+        padding: 0 0px 23px 98px;
+        text-align: left;
+        
+    }
+
+    .mysevices-card .my_card_img{
+        width: 34px;
+        height: 34px;
+        padding-top: 20px;
+        
+    }
+
+    #mysevices .my_card{
+        margin-top: 15px;
+        
+    }
+}
+
+@media (min-width:320px) and (max-width:991px){
+    .feedback_heading h2{
+        font-size: 24px;
+    }
+
+    .feedback_heading p{
+        font-size: 13px;
+    }
+
+    .feedback_text p{
+        font-size: 15px;
+    }
+    .feedback_text h5{
+        font-size: 15px;
+    }
+
+    .feedback_text h6{
+        font-size: 12px;
+    }
+    #feedback .feedback_img{
+        margin: 30px 0;
+     }
+}
